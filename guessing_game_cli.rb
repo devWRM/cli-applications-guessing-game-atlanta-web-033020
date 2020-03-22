@@ -12,9 +12,10 @@ def prompt
   puts "Enter a number from 1 to 6."
 end
   
-  
+def get_guess(input)
     # capture (guess) input from CLI (& remove \n with chomp)
   input = gets.chomp
+end
   
     # compare (guess) input to comp_num
   
