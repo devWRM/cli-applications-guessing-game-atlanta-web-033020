@@ -2,13 +2,16 @@
 # run in terminal:       ruby bin/guessing_game_cli
 
 
-  
+def answer  
     # generate a random number 1-6: rand(6) + 1  -or-  (rand * 6 + 1).to_i
   comp_num = rand(6) + 1
+end
   
-  
+def prompt  
     # prompt user for (guess) input
-  puts ""
+  puts "Enter a number from 1 to 6."
+end
+  
   
     # capture (guess) input from CLI (& remove \n with chomp)
   input = gets.chomp
