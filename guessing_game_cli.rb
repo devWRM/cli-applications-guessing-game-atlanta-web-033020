@@ -1,5 +1,5 @@
 # Code your solution here!
-# run in terminal:       
+# run in terminal:       ruby bin/guessing_game_cli
 
 def run_guessing_game
   
