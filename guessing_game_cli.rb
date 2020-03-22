@@ -63,3 +63,4 @@ def run_guessing_game
   compare(input, comp_num)
 end
 
+# run in terminal:       ruby bin/guessing_game_cli
