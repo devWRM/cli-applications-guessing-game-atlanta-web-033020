@@ -40,6 +40,7 @@ def run_guessing_game
   
   input = get_guess
   comp_num = answer
+  comp_num.to_i
   compare(input, comp_num)
   
   
