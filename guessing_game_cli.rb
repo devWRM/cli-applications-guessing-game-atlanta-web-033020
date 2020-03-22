@@ -1,7 +1,7 @@
 # Code your solution here!
 # run in terminal:       ruby bin/guessing_game_cli
 
-def run_guessing_game
+
   
     # generate a random number 1-6: rand(6) + 1  -or-  (rand * 6 + 1).to_i
   comp_num = rand(6) + 1
@@ -25,6 +25,9 @@ def run_guessing_game
   end
   
   
+  
+  
+def run_guessing_game
   
 end
 
