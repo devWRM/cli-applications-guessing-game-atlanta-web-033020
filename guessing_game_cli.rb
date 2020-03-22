@@ -32,7 +32,7 @@ end
   
  def compare(input, comp_num)
    
-   binding.pry
+   # binding.pry
    
   if input == comp_num
     
