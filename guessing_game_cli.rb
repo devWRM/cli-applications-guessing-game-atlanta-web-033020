@@ -32,10 +32,10 @@ end
   
  def compare(input, comp_num)
    
-   # binding.pry
+   
    
   if input == comp_num
-    
+     binding.pry
    puts "You guessed the correct number!"
     
   elsif input != comp_num
