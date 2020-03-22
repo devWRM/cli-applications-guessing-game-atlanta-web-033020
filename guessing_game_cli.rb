@@ -46,7 +46,6 @@ end
   
     puts "Sorry! The computer guessed #{comp_num}."
     
-    
   end
 end
   
