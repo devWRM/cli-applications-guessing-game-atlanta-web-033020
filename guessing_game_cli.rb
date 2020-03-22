@@ -36,7 +36,7 @@ end
    
   if input == comp_num
     
-    #  binding.pry
+      binding.pry
      
    puts "You guessed the correct number!"
     
