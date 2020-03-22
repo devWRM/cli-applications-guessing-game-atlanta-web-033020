@@ -1,4 +1,5 @@
 # Code your solution here!
+# run in terminal:       
 
 def run_guessing_game
   
