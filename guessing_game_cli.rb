@@ -25,12 +25,15 @@ end
  def compare(input, comp_num)
   if input == comp_num
     
-    binding.pry
-    
+   
     puts "You guessed the correct number!"
   elsif input != comp_num
     puts "Sorry! The computer guessed #{comp_num}."
   elsif input == "exit"
+  
+   binding.pry
+    
+  
     puts "Goodbye!"
   end
 end
