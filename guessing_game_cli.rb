@@ -1,6 +1,7 @@
 # Code your solution here!
 # run in terminal:       ruby bin/guessing_game_cli
 
+require 'pry'
 
 def answer  
     # generate a random number 1-6: rand(6) + 1  -or-  (rand * 6 + 1).to_i
@@ -23,6 +24,9 @@ end
   
  def compare(input, comp_num)
   if input == comp_num
+    
+    binding.pry
+    
     puts "You guessed the correct number!"
   elsif input != comp_num
     puts "Sorry! The computer guessed #{comp_num}."
