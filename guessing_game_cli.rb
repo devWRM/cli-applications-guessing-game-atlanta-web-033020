@@ -38,13 +38,14 @@ end
      
    puts "You guessed the correct number!"
     
-  elsif input != comp_num
+  elsif input == "exit"
     
+    puts "Goodbye!"
+    
+  else
+  
     puts "Sorry! The computer guessed #{comp_num}."
     
-  else input == "exit"
-  
-    puts "Goodbye!"
     
   end
 end
