@@ -62,7 +62,6 @@ end
   
 def run_guessing_game
   comp_num = answer
-  comp_num.to_s
   prompt
   input = get_guess
   input
