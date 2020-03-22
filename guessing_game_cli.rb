@@ -9,8 +9,8 @@ def run_guessing_game
     # prompt user for (guess) input
   puts ""
   
-    # capture (guess) input from CLI
-  input = gets
+    # capture (guess) input from CLI (& remove \n with chomp)
+  input = gets.chomp
   
     # compare (guess) input to comp_num
   
