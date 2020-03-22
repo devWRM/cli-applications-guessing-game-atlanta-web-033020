@@ -2,7 +2,7 @@
 
 # def run_guessing_game
   
- # winner = (rand * 7 + 1)
+ # comp_num = (rand * 7 + 1)
   
 # end
 
