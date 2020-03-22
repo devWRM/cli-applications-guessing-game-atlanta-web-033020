@@ -21,7 +21,7 @@ end
   
     # compare (guess) input to comp_num
   
- def compare(input)
+ def compare(input, comp_num)
   if input == comp_num
     puts "You guessed the correct number!"
   elsif input != comp_num
@@ -39,7 +39,7 @@ def run_guessing_game
   prompt
   
   input = get_guess
-  compare(input)
+  compare(input, comp_num)
   
   
 end
