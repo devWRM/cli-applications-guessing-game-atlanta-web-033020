@@ -36,9 +36,10 @@ end
 def run_guessing_game
   
   answer
-  input = prompt
+  prompt
   
-  get_guess(input)
+  input = get_guess
+  compare(input)
   
   
 end
