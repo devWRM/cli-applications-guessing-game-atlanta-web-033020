@@ -8,13 +8,14 @@ def run_guessing_game
   prompt user for guess
   
   
-  capture guess input from CLI
+  capture guess (input) from CLI
   
   
-  compare guess input to comp_num
+  compare guess (input) to comp_num
   
   
-  
+  if guess == comp_num
+    
   
   
   
