@@ -6,6 +6,7 @@ def answer
     # generate a random number 1-6: rand(6) + 1  -or-  (rand * 6 + 1).to_i
   comp_num = rand(6) + 1
 end
+
   
 def prompt  
     # prompt user for (guess) input
@@ -32,6 +33,9 @@ end
   
   
 def run_guessing_game
+  
+  answer
+  prompt
   
 end
 
