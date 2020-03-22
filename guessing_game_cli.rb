@@ -4,5 +4,13 @@ def run_guessing_game
   
   comp_num = (rand * 6 + 1)
   
+  
+  prompt user for guess
+  
+  
+  
+  
+  
+  
 end
 
