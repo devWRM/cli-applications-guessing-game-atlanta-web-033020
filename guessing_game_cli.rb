@@ -36,9 +36,7 @@ end
    
   if input == comp_num
     
-      binding.pry
-     
-   puts "You guessed the correct number!"
+        puts "You guessed the correct number!"
     
   elsif input == "exit"
     
@@ -49,6 +47,11 @@ end
     puts "Sorry! The computer guessed #{comp_num}."
     
   end
+  
+   binding.pry
+     
+
+  
 end
   
   
