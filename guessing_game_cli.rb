@@ -11,6 +11,9 @@ def run_guessing_game
   capture guess input from CLI
   
   
+  compare guess input to comp_num
+  
+  
   
   
   
