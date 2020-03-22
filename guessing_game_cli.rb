@@ -29,10 +29,11 @@ end
     puts "You guessed the correct number!"
   elsif input != comp_num
     puts "Sorry! The computer guessed #{comp_num}."
-  elsif input == "exit"
-  
+    
+    
    binding.pry
     
+  elsif input == "exit"
   
     puts "Goodbye!"
   end
