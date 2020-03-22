@@ -7,7 +7,7 @@ def run_guessing_game
   
   
     # prompt user for guess
-  
+  puts ""
   
     # capture guess (input) from CLI
   
