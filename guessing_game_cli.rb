@@ -15,6 +15,8 @@ def run_guessing_game
   
   
   if guess == comp_num
+    puts "You guessed the correct number!"
+  elsif guess != comp_num
     
   
   
