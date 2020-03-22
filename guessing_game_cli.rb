@@ -6,20 +6,20 @@ def run_guessing_game
   comp_num = rand * 6 + 1
   
   
-    # prompt user for guess
+    # prompt user for (guess) input
   puts ""
   
-    # capture guess (input) from CLI
+    # capture (guess) input from CLI
+  input = gets
+  
+    # compare (guess) input to comp_num
   
   
-    # compare guess (input) to comp_num
-  
-  
-  if guess == comp_num
+  if input == comp_num
     puts "You guessed the correct number!"
-  elsif guess != comp_num
+  elsif input != comp_num
     puts "Sorry! The computer guessed #{comp_num}."
-  elsif guess == "exit"
+  elsif input == "exit"
     puts "Goodbye!"
   end
   
