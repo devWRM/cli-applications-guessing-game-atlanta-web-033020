@@ -29,10 +29,11 @@ end
     puts "You guessed the correct number!"
   elsif input != comp_num
     
-    puts "Goodbye!"
+    puts "Sorry! The computer guessed #{comp_num}."
+    
   else input == "exit"
   
-  puts "Sorry! The computer guessed #{comp_num}."
+    puts "Goodbye!"
     
   end
 end
